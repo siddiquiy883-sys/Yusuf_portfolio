@@ -1,0 +1,267 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.6.1/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.9.0
+2 info using node@v25.6.1
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/User/Yusuf Portfolio/.npmrc
+5 silly config load:file:/Users/User/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install @react-three/fiber@^9.5.0 @react-three/drei@^10.0.0
+8 verbose argv "install" "@react-three/fiber@^9.5.0" "@react-three/drei@^10.0.0" "--legacy-peer-deps"
+9 verbose logfile logs-max:10 dir:/Users/User/Yusuf Portfolio/.npm-cache/_logs/2026-03-28T19_30_57_177Z-
+10 verbose logfile /Users/User/Yusuf Portfolio/.npm-cache/_logs/2026-03-28T19_30_57_177Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest @react-three/fiber@^9.5.0
+15 silly packumentCache full:https://registry.npmjs.org/@react-three%2ffiber cache-miss
+16 http cache https://registry.npmjs.org/@react-three%2ffiber 20ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/@react-three%2ffiber set size:1114572 disposed:false
+18 silly fetch manifest @react-three/drei@^10.0.0
+19 silly packumentCache full:https://registry.npmjs.org/@react-three%2fdrei cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@react-three%2fdrei 1494ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/@react-three%2fdrei set size:2751174 disposed:false
+22 silly placeDep ROOT @react-three/drei@10.7.7 REPLACE for: yusuf-portfolio@0.1.0 want: ^10.0.0
+23 silly placeDep ROOT @react-three/fiber@9.5.0 REPLACE for: yusuf-portfolio@0.1.0 want: ^9.5.0
+24 silly fetch manifest three-mesh-bvh@^0.8.3
+25 silly packumentCache full:https://registry.npmjs.org/three-mesh-bvh cache-miss
+26 silly fetch manifest camera-controls@^3.1.0
+27 silly packumentCache full:https://registry.npmjs.org/camera-controls cache-miss
+28 silly fetch manifest its-fine@^2.0.0
+29 silly packumentCache full:https://registry.npmjs.org/its-fine cache-miss
+30 silly fetch manifest scheduler@^0.27.0
+31 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/scheduler 62ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/scheduler set size:5450434 disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/its-fine 490ms (cache revalidated)
+35 silly packumentCache full:https://registry.npmjs.org/its-fine set size:119242 disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/camera-controls 494ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/camera-controls set size:507988 disposed:false
+38 http fetch GET 200 https://registry.npmjs.org/three-mesh-bvh 1000ms (cache revalidated)
+39 silly packumentCache full:https://registry.npmjs.org/three-mesh-bvh set size:315011 disposed:false
+40 silly placeDep ROOT camera-controls@3.1.2 OK for: @react-three/drei@10.7.7 want: ^3.1.0
+41 silly placeDep ROOT three-mesh-bvh@0.8.3 OK for: @react-three/drei@10.7.7 want: ^0.8.3
+42 silly placeDep ROOT its-fine@2.0.0 OK for: @react-three/fiber@9.5.0 want: ^2.0.0
+43 silly placeDep ROOT scheduler@0.27.0 OK for: @react-three/fiber@9.5.0 want: ^0.27.0
+44 silly fetch manifest @types/react-reconciler@^0.28.9
+45 silly packumentCache full:https://registry.npmjs.org/@types%2freact-reconciler cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/@types%2freact-reconciler 53ms (cache revalidated)
+47 silly packumentCache full:https://registry.npmjs.org/@types%2freact-reconciler set size:61372 disposed:false
+48 silly placeDep ROOT @types/react-reconciler@0.28.9 OK for: its-fine@2.0.0 want: ^0.28.9
+49 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@react-spring/animated' ]
+50 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@react-spring/core' ]
+51 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@react-spring/rafz' ]
+52 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@react-spring/shared' ]
+53 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@react-spring/three' ]
+54 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@react-spring/types' ]
+55 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@react-three/drei' ]
+56 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@react-three/fiber' ]
+57 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/@types/react-reconciler' ]
+58 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/camera-controls' ]
+59 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/its-fine' ]
+60 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/js-tokens' ]
+61 silly reify mark retired [
+61 silly reify   '/Users/User/Yusuf Portfolio/node_modules/loose-envify',
+61 silly reify   '/Users/User/Yusuf Portfolio/node_modules/.bin/loose-envify'
+61 silly reify ]
+62 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/object-assign' ]
+63 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/prop-types' ]
+64 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/react-composer' ]
+65 silly reify mark retired [
+65 silly reify   '/Users/User/Yusuf Portfolio/node_modules/react-dom/node_modules/scheduler'
+65 silly reify ]
+66 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/react-is' ]
+67 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/react-reconciler' ]
+68 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/scheduler' ]
+69 silly reify mark retired [ '/Users/User/Yusuf Portfolio/node_modules/three-mesh-bvh' ]
+70 silly reify moves {
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@react-spring/animated': '/Users/User/Yusuf Portfolio/node_modules/@react-spring/.animated-uB4YqdCl',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@react-spring/core': '/Users/User/Yusuf Portfolio/node_modules/@react-spring/.core-yCLqbmHX',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@react-spring/rafz': '/Users/User/Yusuf Portfolio/node_modules/@react-spring/.rafz-09wgUv3z',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@react-spring/shared': '/Users/User/Yusuf Portfolio/node_modules/@react-spring/.shared-ILTfbwzB',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@react-spring/three': '/Users/User/Yusuf Portfolio/node_modules/@react-spring/.three-YQyLHnGa',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@react-spring/types': '/Users/User/Yusuf Portfolio/node_modules/@react-spring/.types-HpVEHIqg',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@react-three/drei': '/Users/User/Yusuf Portfolio/node_modules/@react-three/.drei-fRLIZZzH',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@react-three/fiber': '/Users/User/Yusuf Portfolio/node_modules/@react-three/.fiber-M10nTuqJ',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/@types/react-reconciler': '/Users/User/Yusuf Portfolio/node_modules/@types/.react-reconciler-dYjhUP3G',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/camera-controls': '/Users/User/Yusuf Portfolio/node_modules/.camera-controls-HD93LqwY',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/its-fine': '/Users/User/Yusuf Portfolio/node_modules/.its-fine-R8tpDUMA',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/js-tokens': '/Users/User/Yusuf Portfolio/node_modules/.js-tokens-VzsS8SQg',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/loose-envify': '/Users/User/Yusuf Portfolio/node_modules/.loose-envify-tz7r6ukI',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/.bin/loose-envify': '/Users/User/Yusuf Portfolio/node_modules/.bin/.loose-envify-LGZ4fEgv',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/object-assign': '/Users/User/Yusuf Portfolio/node_modules/.object-assign-rFGeqClI',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/prop-types': '/Users/User/Yusuf Portfolio/node_modules/.prop-types-or9mf060',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/react-composer': '/Users/User/Yusuf Portfolio/node_modules/.react-composer-cUmff6f2',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/react-dom/node_modules/scheduler': '/Users/User/Yusuf Portfolio/node_modules/react-dom/node_modules/.scheduler-pj61MtGi',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/react-is': '/Users/User/Yusuf Portfolio/node_modules/.react-is-LtjdQo9e',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/react-reconciler': '/Users/User/Yusuf Portfolio/node_modules/.react-reconciler-5S2FGcPj',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/scheduler': '/Users/User/Yusuf Portfolio/node_modules/.scheduler-8qJIjTXs',
+70 silly reify   '/Users/User/Yusuf Portfolio/node_modules/three-mesh-bvh': '/Users/User/Yusuf Portfolio/node_modules/.three-mesh-bvh-od25iMe7'
+70 silly reify }
+71 silly audit bulk request {
+71 silly audit   '@babel/runtime': [ '7.29.2' ],
+71 silly audit   '@emnapi/runtime': [ '1.9.1' ],
+71 silly audit   '@img/colour': [ '1.1.0' ],
+71 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+71 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+71 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+71 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+71 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+71 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+71 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+71 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+71 silly audit   '@mediapipe/tasks-vision': [ '0.10.17' ],
+71 silly audit   '@monogrid/gainmap-js': [ '3.4.0' ],
+71 silly audit   '@next/env': [ '15.5.14' ],
+71 silly audit   '@next/swc-darwin-arm64': [ '15.5.14' ],
+71 silly audit   '@next/swc-darwin-x64': [ '15.5.14' ],
+71 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.14' ],
+71 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.14' ],
+71 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.14' ],
+71 silly audit   '@next/swc-linux-x64-musl': [ '15.5.14' ],
+71 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.14' ],
+71 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.14' ],
+71 silly audit   zustand: [ '4.5.7', '5.0.12' ],
+71 silly audit   '@swc/helpers': [ '0.5.15' ],
+71 silly audit   '@tweenjs/tween.js': [ '23.1.3' ],
+71 silly audit   '@types/draco3d': [ '1.4.10' ],
+71 silly audit   '@types/node': [ '22.19.15' ],
+71 silly audit   '@types/offscreencanvas': [ '2019.7.3' ],
+71 silly audit   '@types/react': [ '19.2.14' ],
+71 silly audit   '@types/react-dom': [ '19.2.3' ],
+71 silly audit   '@types/stats.js': [ '0.17.4' ],
+71 silly audit   '@types/three': [ '0.170.0' ],
+71 silly audit   '@types/webxr': [ '0.5.24' ],
+71 silly audit   '@use-gesture/core': [ '10.3.1' ],
+71 silly audit   '@use-gesture/react': [ '10.3.1' ],
+71 silly audit   '@webgpu/types': [ '0.1.69' ],
+71 silly audit   'base64-js': [ '1.5.1' ],
+71 silly audit   'bidi-js': [ '1.0.3' ],
+71 silly audit   buffer: [ '6.0.3' ],
+71 silly audit   'caniuse-lite': [ '1.0.30001781' ],
+71 silly audit   'client-only': [ '0.0.1' ],
+71 silly audit   'cross-env': [ '7.0.3' ],
+71 silly audit   'cross-spawn': [ '7.0.6' ],
+71 silly audit   csstype: [ '3.2.3' ],
+71 silly audit   'detect-gpu': [ '5.0.70' ],
+71 silly audit   'detect-libc': [ '2.1.2' ],
+71 silly audit   draco3d: [ '1.5.7' ],
+71 silly audit   fflate: [ '0.8.2', '0.6.10' ],
+71 silly audit   'framer-motion': [ '11.18.2' ],
+71 silly audit   'glsl-noise': [ '0.0.0' ],
+71 silly audit   'hls.js': [ '1.6.15' ],
+71 silly audit   ieee754: [ '1.2.1' ],
+71 silly audit   immediate: [ '3.0.6' ],
+71 silly audit   'is-promise': [ '2.2.2' ],
+71 silly audit   isexe: [ '2.0.0' ],
+71 silly audit   lie: [ '3.3.0' ],
+71 silly audit   maath: [ '0.10.8' ],
+71 silly audit   meshline: [ '3.3.1' ],
+71 silly audit   meshoptimizer: [ '0.18.1' ],
+71 silly audit   'motion-dom': [ '11.18.1' ],
+71 silly audit   'motion-utils': [ '11.18.1' ],
+71 silly audit   nanoid: [ '3.3.11' ],
+71 silly audit   next: [ '15.5.14' ],
+71 silly audit   'path-key': [ '3.1.1' ],
+71 silly audit   picocolors: [ '1.1.1' ],
+71 silly audit   postcss: [ '8.4.31' ],
+71 silly audit   potpack: [ '1.0.2' ],
+71 silly audit   'promise-worker-transferable': [ '1.0.4' ],
+71 silly audit   react: [ '19.2.4' ],
+71 silly audit   'react-dom': [ '19.2.4' ],
+71 silly audit   scheduler: [ '0.27.0' ],
+71 silly audit   'react-use-measure': [ '2.1.7' ],
+71 silly audit   'require-from-string': [ '2.0.2' ],
+71 silly audit   semver: [ '7.7.4' ],
+71 silly audit   sharp: [ '0.34.5' ],
+71 silly audit   'shebang-command': [ '2.0.0' ],
+71 silly audit   'shebang-regex': [ '3.0.0' ],
+71 silly audit   'source-map-js': [ '1.2.1' ],
+71 silly audit   'stats-gl': [ '2.4.2' ],
+71 silly audit   'stats.js': [ '0.17.0' ],
+71 silly audit   'styled-jsx': [ '5.1.6' ],
+71 silly audit   'suspend-react': [ '0.1.3' ],
+71 silly audit   three: [ '0.170.0' ],
+71 silly audit   'three-stdlib': [ '2.36.1' ],
+71 silly audit   'troika-three-text': [ '0.52.4' ],
+71 silly audit   'troika-three-utils': [ '0.52.4' ],
+71 silly audit   'troika-worker-utils': [ '0.52.0' ],
+71 silly audit   tslib: [ '2.8.1' ],
+71 silly audit   'tunnel-rat': [ '0.1.2' ],
+71 silly audit   typescript: [ '5.9.3' ],
+71 silly audit   'undici-types': [ '6.21.0' ],
+71 silly audit   'use-sync-external-store': [ '1.6.0' ],
+71 silly audit   'utility-types': [ '3.11.0' ],
+71 silly audit   'webgl-constants': [ '1.1.1' ],
+71 silly audit   'webgl-sdf-generator': [ '1.1.1' ],
+71 silly audit   which: [ '2.0.2' ],
+71 silly audit   '@react-three/drei': [ '10.7.7' ],
+71 silly audit   '@react-three/fiber': [ '9.5.0' ],
+71 silly audit   'camera-controls': [ '3.1.2' ],
+71 silly audit   'three-mesh-bvh': [ '0.8.3' ],
+71 silly audit   'its-fine': [ '2.0.0' ],
+71 silly audit   '@types/react-reconciler': [ '0.28.9' ]
+71 silly audit }
+72 http cache three-mesh-bvh@https://registry.npmjs.org/three-mesh-bvh/-/three-mesh-bvh-0.8.3.tgz 0ms (cache hit)
+73 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+74 http cache camera-controls@https://registry.npmjs.org/camera-controls/-/camera-controls-3.1.2.tgz 0ms (cache hit)
+75 http cache @types/react-reconciler@https://registry.npmjs.org/@types/react-reconciler/-/react-reconciler-0.28.9.tgz 0ms (cache hit)
+76 http cache its-fine@https://registry.npmjs.org/its-fine/-/its-fine-2.0.0.tgz 0ms (cache hit)
+77 http cache @react-three/fiber@https://registry.npmjs.org/@react-three/fiber/-/fiber-9.5.0.tgz 0ms (cache hit)
+78 silly tarball no local data for three-mesh-bvh@https://registry.npmjs.org/three-mesh-bvh/-/three-mesh-bvh-0.8.3.tgz. Extracting by manifest.
+79 http cache @react-three/drei@https://registry.npmjs.org/@react-three/drei/-/drei-10.7.7.tgz 0ms (cache hit)
+80 silly tarball no local data for camera-controls@https://registry.npmjs.org/camera-controls/-/camera-controls-3.1.2.tgz. Extracting by manifest.
+81 silly tarball no local data for its-fine@https://registry.npmjs.org/its-fine/-/its-fine-2.0.0.tgz. Extracting by manifest.
+82 silly tarball no local data for @react-three/fiber@https://registry.npmjs.org/@react-three/fiber/-/fiber-9.5.0.tgz. Extracting by manifest.
+83 silly tarball no local data for @react-three/drei@https://registry.npmjs.org/@react-three/drei/-/drei-10.7.7.tgz. Extracting by manifest.
+84 http fetch GET 200 https://registry.npmjs.org/camera-controls/-/camera-controls-3.1.2.tgz 56ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/its-fine/-/its-fine-2.0.0.tgz 63ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/three-mesh-bvh/-/three-mesh-bvh-0.8.3.tgz 84ms (cache miss)
+87 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 299ms
+88 silly audit report {}
+89 http fetch GET 200 https://registry.npmjs.org/@react-three/drei/-/drei-10.7.7.tgz 452ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/@react-three/fiber/-/fiber-9.5.0.tgz 536ms (cache miss)
+91 silly CHANGE node_modules/three-mesh-bvh
+92 silly CHANGE node_modules/scheduler
+93 silly REMOVE node_modules/react-reconciler
+94 silly REMOVE node_modules/react-is
+95 silly REMOVE node_modules/react-dom/node_modules/scheduler
+96 silly REMOVE node_modules/react-composer
+97 silly REMOVE node_modules/prop-types
+98 silly REMOVE node_modules/object-assign
+99 silly REMOVE node_modules/loose-envify
+100 silly REMOVE node_modules/js-tokens
+101 silly CHANGE node_modules/its-fine
+102 silly REMOVE node_modules/its-fine/node_modules/@types/react-reconciler
+103 silly CHANGE node_modules/camera-controls
+104 silly CHANGE node_modules/@types/react-reconciler
+105 silly CHANGE node_modules/@react-three/fiber
+106 silly REMOVE node_modules/@react-three/fiber/node_modules/zustand
+107 silly CHANGE node_modules/@react-three/drei
+108 silly REMOVE node_modules/@react-spring/types
+109 silly REMOVE node_modules/@react-spring/three
+110 silly REMOVE node_modules/@react-spring/shared
+111 silly REMOVE node_modules/@react-spring/rafz
+112 silly REMOVE node_modules/@react-spring/core
+113 silly REMOVE node_modules/@react-spring/animated
+114 verbose cwd /Users/User/Yusuf Portfolio
+115 verbose os Darwin 25.3.0
+116 verbose node v25.6.1
+117 verbose npm  v11.9.0
+118 verbose exit 0
+119 info ok
